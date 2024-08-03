@@ -1,0 +1,34 @@
+.signin {
+    background-color:white;
+    border:2px solid gray;
+    border-radius:10px;
+    padding:50px;
+    align-content: center;
+    margin-left:550px;
+    height:350px;
+    width:400px;
+    box-shadow: 4px 4px 15px lightgray;
+}
+#but{
+    width:130px;
+    height:31px;
+    /* border: none; */
+    margin-left:60px;
+    border-radius:5px;
+    background-color: rgb(47, 154, 255);
+    color:rgb(252, 251, 251);
+    /* box-shadow: 2px 2px 4px lightgray; */
+}
+   
+#buttn{
+        width:130px;
+        height:31px;
+        margin-left:60px;
+        border-radius:5px;
+        background-color: rgb(47, 154, 255);
+        
+        color:rgb(252, 251, 251);
+        /* box-shadow: 1px 1px 2px lightgray; */
+    
+       
+    }

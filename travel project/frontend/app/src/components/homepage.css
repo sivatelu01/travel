@@ -1,0 +1,124 @@
+/* .background{
+    background-image: url('./images/hero.png');
+    background-size: cover;
+    height: 90vh;
+    text-align: center;
+    position: relative;
+    opacity: 10;
+}
+.content{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    color: rgb(30 41 59);
+
+}
+.B1{
+    position: relative;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    background-color: #4682B4;
+    border: none;
+}
+.B2{
+    position: relative;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    background-color: #4682B4;
+    border: none;
+} */
+
+
+/* .background{
+    background-image: url('./images/hero.png'); 
+    background-size: 100% 100%; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    width: 100%; 
+}
+.content{
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 25%;
+    
+    color: #040720;
+}
+.B1{
+    position: relative;
+    border-radius: 20px;
+    
+    height: 40px;
+    width: 120px;
+    background-color: #4682B4;
+    border: none;
+} */
+
+.background-image {
+    background-image: url('./images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+  .white-links {
+    color: white !important;
+    font-size: 30px;
+  }
+  
+  .responsive-text {
+    font-size: 2rem;
+    margin-top:16.5%;
+  }
+  @media (max-width: 768px) {
+    .responsive-text {
+      font-size: 1.5rem; 
+    }
+  }
+  
+  .p1, .p2 {
+    color: #fff;
+    text-align: center;
+    max-width: 700px;
+    margin: 1rem 0;
+  }
+  
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: -5%;
+  }
+  
+  .responsive-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+  }
+  
+  .responsive-button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 768px) {
+    .responsive-button {
+      font-size: 14px; 
+      padding: 10px 20px;
+    }
+  }
+  
